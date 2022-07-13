@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.menu ul {
+
+    display: flex;
+}
+
+.logo_h1 {
+    font-size: 44px;
+    border-right: 5px solid #ff4700;
+    position: relative;
+    left: -91px;
+    color: white;
+}
+
+.menu ul li {
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: 19px;
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+
+    background: #8b2222;
+    padding: 2px 1px;
+    border-radius: 5px;
+
+}
+
+#banner_wrapper {
+    display: flex;
+    background: linear-gradient(black, black, rgb(20 5 235 / 90%));
+    height: 696px;
+    /* clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 99%, 68% 92%, 24% 90%, 0 87%, 0% 43%, 0 0); */
+    clip-path: polygon(0 0, 100% 1%, 100% 85%, 0 99%);
+    margin-bottom: 60px;
+}
+
+.banner_images {
+    width: 600px;
+}
+
+.banner_text {
+    position: relative;
+    left: 46px;
+    top: 100px;
+
+}
+
+.banner_span {
+    font-size: 25px;
+    color: #ff2700;
+}
+
+.banner_h1 {
+    font-size: 84px;
+    line-height: 84px;
+    word-spacing: -16px;
+    margin: 10px;
+    color: white;
+}
+
+.banner_p {
+    font-size: 22px;
+    position: relative;
+    margin: 13px;
+    color: white;
+}
+
+.banner_btn {
+    padding: 13px 40px;
+    position: relative;
+    background: #00ff95;
+    top: 22px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.banner_btn:hover {
+
+    background-color: #0ee6db;
+    cursor: pointer;
+
+}
+
+#take_look_section {
+
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.take_look_flex_main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.take_1 {
+    width: 25%;
+    box-shadow: 2px 7px 15px gray, 1px 0px 8px gray;
+    padding: 7px 25px;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-radius: 8px;
+}
+
+
+.take_1:hover {
+
+    transition: .5s;
+    border-radius: 10px;
+    margin-top: -22px;
+    border: 1px solid rgb(226, 30, 30);
+    cursor: pointer;
+
+}
+
+
+
+.take_2 {
+
+    width: 25%;
+    box-shadow: 2px 7px 15px gray, 1px 0px 8px gray;
+    padding: 7px 25px;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-radius: 8px;
+}
+
+.take_2:hover {
+
+    transition: .5s;
+    border-radius: 10px;
+    margin-top: -22px;
+    border: 1px solid rgb(226, 30, 30);
+    cursor: pointer;
+}
+
+.take_3 {
+
+    width: 25%;
+    box-shadow: 2px 7px 15px gray, 1px 0px 8px gray;
+    padding: 7px 25px;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-radius: 8px;
+}
+
+
+.take_3:hover {
+
+    transition: .5s;
+    border-radius: 10px;
+    margin-top: -22px;
+    border: 1px solid rgb(226, 30, 30);
+    cursor: pointer;
+}
+
+.take_p {
+    margin-bottom: 30px;
+}
+
+
+.take_look_h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.take_img {
+    width: 100px;
+}
+
+#about_section {
+    background-color: #100F0F;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.about_flex {
+
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.bout_h1 {
+    font-size: 52px;
+    margin: 15px;
+    margin-bottom: 46px;
+}
+
+.about_contain_h1 {
+    font-size: 42px;
+    border-top: 2px solid gray;
+}
+
+.about_contain_4 {
+    font-size: 17px;
+    margin-bottom: 41px;
+    margin-top: 32px;
+}
+
+.about_contain_btn {
+    padding: 13px 40px;
+    position: relative;
+    background: #ffbf0b;
+    top: 22px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    color: black;
+}
+
+.about_contain_btn:hover {
+    cursor: pointer;
+    background-color: #ff2700;
+    color: white;
+
+}
+
+.about_flex_image {
+    height: 534px;
+    transform: skewY(-15deg);
+    border-top: 2p;
+    margin-top: 50px;
+}
+
+.about_contain {
+
+    margin-left: 50px;
+}
+
+.about_contain_li {
+    font-size: 18px;
+    color: #df9611;
+}
+
+.image1 {
+    border-top: 2px solid red;
+}
+
+.image2 {
+    border-top: 2px solid red;
+}
+
+img.about_flex_image.about_defult {
+    margin-right: 21px;
+}
+
+#chat_section {
+
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.chat_bg {
+    background-image: url(image/Group_chat_shep1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    display: flex;
+    padding: 88px;
+    justify-content: space-around;
+}
+
+.chat_h1 {
+    font-size: 50px;
+}
+
+.chat_btn {
+
+    padding: 13px 40px;
+    background: #ffffff;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    color: black;
+
+
+}
+
+.chat_btn:hover {
+
+    background-color: #5047CF;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 0px 10px black;
+}
+
+
+#Our_Services_main {
+
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.Our_Service_flex {
+
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.Our_Services_headin {
+
+    text-align: center;
+}
+
+#our_service_inage {
+    width: 370px;
+    border-radius: 10px;
+}
+
+.Our_Service_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Our_Services_h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.Our_Services_box_h3 {
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.Our_Services-box_h1 {
+    font-size: 25px;
+    position: relative;
+    left: 6px;
+}
+
+.Our_Services-box_span {
+    position: relative;
+    font-size: 18px;
+    top: 7px;
+    left: 10px;
+}
+
+
+.our_service_box_btn {
+    position: relative;
+    right: -212px;
+    padding: 12px 30px;
+    border: none;
+    background: #009688;
+    border-radius: 7px;
+    top: -24px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.our_service_box_btn:hover {
+
+
+    background-color: #1a0ce0;
+    color: #ffffff;
+
+
+}
+
+.Our_Services-box_span {
+    position: relative;
+    font-size: 18px;
+    top: 10px;
+}
+
+.Our_Services-box_h2 {
+    position: relative;
+    top: 15px;
+    font-size: 34px;
+    left: 10px;
+}
+
+.our_service_box_1 {
+
+    box-shadow: 2px 7px 15px gray, 1px 0px 8px gray;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-radius: 10px;
+}
+
+footer {
+
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+span.fotter_span {
+    font-size: 20px;
+    color: #0812449e;
+}
+
+#ik_color {
+    color: #ff0000c7;
+}
